@@ -1,0 +1,341 @@
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001b4c 000000a4 t uartProcessIRQ
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000180 00000004 b rxIsrCallbackUART0
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000184 00000004 b rxIsrCallbackUART2
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000188 00000004 b rxIsrCallbackUART3
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1000018c 00000004 b txIsrCallbackUART0
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000190 00000004 b txIsrCallbackUART2
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000194 00000004 b txIsrCallbackUART3
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a004378 00000048 t lpcUarts
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1000015c 0000000a b uartBuff.13999
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000168 0000000a b uartBuff.14016
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000174 00000004 b heap_end.5864
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000a84 00000044 t Board_LED_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000ac8 00000040 t Board_TEC_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000b08 00000040 t Board_GPIO_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000b48 00000030 t Board_ADC_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000b78 00000038 t Board_SPI_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000bb0 00000024 t Board_I2C_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0041e8 00000008 t GpioButtons
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0041f0 0000000c t GpioLeds
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0041fc 00000012 t GpioPorts
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a004214 00000004 t InitClkStates
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a004218 00000074 t pinmuxing
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000018 00000038 d i2c
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000dd4 0000002c t Chip_UART_GetIndex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00428c 00000008 t UART_BClock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a004294 00000008 t UART_PClock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000f70 00000014 t Chip_ADC_GetClockIndex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000f84 00000032 t getClkDiv
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00113c 000000a0 t pll_calc_divs
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0011dc 0000010c t pll_get_frac
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0012e8 0000004c t Chip_Clock_FindBaseClock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00155c 00000022 t Chip_Clock_GetDivRate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000178 00000008 b audio_usb_pll_freq
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0042a8 0000006c t periph_to_base
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001710 0000002c t Chip_TIMER_GetClockIndex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a004314 00000048 t InitClkStates
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00195c 00000014 t Chip_SSP_GetClockIndex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001970 00000018 t Chip_SSP_GetPeriphClockIndex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000050 00000004 d ClockSpeed
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00435c 0000001c t SCTdataList
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001d26 0000000c t pwmInitTimers
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001d5c 00000034 t pwmAttach
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001d90 0000001c t pwmDetach
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000054 0000000b d AttachedPWMList
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0043c0 0000000b t pwmMap
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000198 00000004 b callBackFuncParams
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001a0 00000008 b tickCounter
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001a8 00000004 b tickHookFunction
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001e9c 00000002 t errorOcurred
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001e9e 00000002 t doNothing
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000068 00000040 d timer_dd
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0043cc 00000030 t timer_sd
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00221c 00000034 t gpioObtainPinInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001ac 00000004 b g_hUsb
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002590 0000009c t enableGPIOIrq
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00262c 00000048 t disableGPIOIrq
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002674 00000010 t clearInterrupt
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002684 0000005c t serveInterrupt
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0026e0 0000000c t triggerExpired
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0026ec 0000000c t timerExpired
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100000a8 00000001 d firstTime.11723
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100000ac 00000048 d ultrasonicSensors
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0044e4 00000003 t ultrasonicSensorsIrqMap
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003038 00000048 t std
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003440 0000002e t __sfputc_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100000f8 00000060 d impure_data
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0045a8 t __init_array_end
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0045a4 b __preinit_array_end
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0045a4 t __init_array_start
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0045a4 b __preinit_array_start
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001380 0000001c T Chip_Clock_GetDividerSource
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0009d0 00000012 T _isatty_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002bc8 000000dc T _puts_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002080 00000044 T TIMER2_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001c20 00000014 T uartRxRead
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0009e2 0000000a T _lseek_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000184 00000002 W DebugMon_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W RIT_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00101c 00000016 T Chip_ADC_DeInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a080000 A __top_MFlashA512
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000114 T __section_table_start
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W I2C0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001cc4 0000001e T uartReadByte
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b98 00000030 T printf
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000c6a 00000008 T __stdio_init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c0 00000001 B __lock___atexit_recursive_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002550 0000003e T delayRead
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003a52 00000024 T __sseek
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0030e8 00000070 T __sinit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002d34 000000a4 T __swbuf_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00017a 00000002 W HardFault_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000000 00000002 D b
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00308c 0000002c T __sfmoreglue
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000000 A __vectors_start__
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0010e4 0000000c T Chip_ADC_SetResolution
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003b2c 0000000c T __malloc_unlock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001e70 0000002c T SysTick_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000e54 00000040 T Chip_UART_SetBaud
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c1 00000001 B __lock___arc4random_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00092c 00000002 W initialise_monitor_handles
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W SDIO_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000c0c 0000001c T Board_UARTGetChar
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000186 00000002 W PendSV_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000178 00000002 W NMI_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0045b0 R __exidx_end
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000150 T __data_section_table_end
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1000015a 00000002 B muestra
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00043c 0000019c T modo_emergencia
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W I2C1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001760 00000010 T Chip_SCT_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W UART1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W CAN1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0009c6 0000000a T _fstat_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:53ff6f5e A __valid_user_code_checksum
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0045b0 R _etext
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W USB1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W I2S0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0005d8 00000040 T inicializacion_sensor_ultrasonido
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0020c4 00000044 T TIMER3_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0015fe 0000000c T Chip_Clock_GetBaseClocktHz
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001bc 0000000a T UART0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001a8 00000012 T bss_init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001748 00000018 T Chip_TIMER_Reset
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0027a4 00000044 T ultrasonicSensorGetDistance
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003080 0000000c T _cleanup_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002808 T __aeabi_uldivmod
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001cc ? _noinit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002ca4 00000010 T puts
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001cfc 00000016 T uartWriteString
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001b8 00000004 B SystemCoreClock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000e00 00000054 T Chip_UART_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000d2e 00000010 T Chip_DAC_UpdateValue
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000010 00000008 D periodo_normal
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W ADC0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000fc4 00000018 T readAdcVal
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000180 00000002 W UsageFault_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0016b0 0000004c T Chip_Clock_GetRate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000cac 0000006c T Board_SetupClocking
+TP_AlejandroG/Pruebas/out/Pruebas.elf:20008000 A __top_RamAHB32
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b84 00000004 T itoa
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002838 000002d0 T __udivmoddi4
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000a64 00000020 T _sbrk_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0041e4 00000004 T ExtRateIn
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W IntDefaultHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000300 T __CRP_WORD_END__
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001abc 0000004c T Sct_EnablePwmFor
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0009ec 0000004e T _read_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0027f2 0000000a T GPIO1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W SSP0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001bf0 00000018 T uartRxReady
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0045a8 R __exidx_start
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c2 00000001 B __lock___env_recursive_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0002fc 00000004 T CRP_WORD
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000fb6 0000000e T setStartMode
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c3 00000001 B __lock___sinit_recursive_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00456c 00000004 T _global_impure_ptr
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b0c 00000048 T __libc_init_array
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002108 000000bc T adcInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W ADC1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001a64 00000024 T Sct_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000c28 00000030 T Board_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0009ba 00000002 W _init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000114 T __data_section_table
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W RTC_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001cc B _ebss
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0010f0 0000002a T Chip_ADC_EnableChannel
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002000 00000040 T TIMER0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000930 00000088 T Reset_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001df4 0000007c T tickInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:20010000 A __top_RamAHB_ETB16
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W SPI_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001910 0000004a T Chip_SCTPWM_SetRate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000d9c 00000038 T Chip_I2C_SetClockRate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W LCD_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001334 0000004c T Chip_Clock_EnableCrystal
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c4 00000001 B __lock___malloc_recursive_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001032 00000008 T Chip_ADC_ReadValue
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10008000 A __top_RamLoc32
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00018a 0000001e T data_init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001092 00000020 T Chip_ADC_SetStartMode
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002040 00000040 T TIMER1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00450c 00000020 T __sf_fake_stderr
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000d78 00000024 T Chip_I2C_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003224 00000002 T __retarget_lock_release_recursive
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001d12 0000000a T UART2_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b54 00000030 T __itoa
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0014f0 0000006c T Chip_Clock_GetMainPLLHz
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0043fc 000000e6 T gpioPinsInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001ce2 0000001a T uartWriteByte
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001988 00000012 T Chip_SSP_SetClockRate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00346e 00000024 T __sfputs_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0027fc 0000000a T GPIO2_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0030b8 0000000c T __sfp_lock_acquire
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003a80 T memchr
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001ea0 00000120 T Timer_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0032f0 0000009c T _free_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0021c4 00000058 T adcRead
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001fc0 00000008 T Timer_microsecondsToTicks
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0015d8 00000026 T Chip_Clock_GetBaseClock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000158 B _bss
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00103a 00000036 T Chip_ADC_ReadStatus
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0010b2 00000032 T Chip_ADC_SetSampleRate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002530 00000020 T delayInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W I2S1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00199a 0000003e T Chip_SSP_SetBitRate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001770 00000002 T Chip_GPIO_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a004210 00000004 T OscRateIn
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001c48 0000007c T uartInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001cc ? _end_noinit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10008000 A _vStackTop
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W SSP1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00173c 0000000c T Chip_TIMER_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000178 T __bss_section_table_end
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0009bc 0000000a T _close_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002250 000001ac T gpioInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001dac 00000024 T pwmInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000618 00000210 T configuracion
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002dd8 000000dc T __swsetup_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b08 00000002 W __aeabi_ldiv0
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003158 0000008c T __sfp
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0030dc 0000000c T __sinit_lock_release
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0039f8 00000022 T __sread
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002468 0000001c T USB0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00167c 00000034 T Chip_Clock_Disable
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003b20 0000000c T __malloc_lock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000bf8 00000014 T Board_UARTPutChar
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W SCT_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002fc0 00000078 T _fflush_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00452c 00000020 T __sf_fake_stdin
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002cb4 00000080 T __utoa
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00139c 0000001c T Chip_Clock_GetDividerDivisor
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0002fc T __CRP_WORD_START__
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003222 00000002 T __retarget_lock_acquire_recursive
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000158 00000001 B data
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000300 0000013c T modo_normal
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b88 00000010 T memset
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00017c 00000002 W MemManage_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000828 00000104 T main
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003220 00000002 T __retarget_lock_init_recursive
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W WDT_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:2000c000 A __top_RamAHB16
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1008a000 A __top_RamLoc40
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000182 00000002 W SVC_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003a76 00000008 T __sclose
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001fc8 00000038 T Timer_EnableCompareMatch
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001aa4 00000018 T Sct_SetDutyCycle
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00338c 000000b4 T _malloc_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001c08 00000018 T uartTxReady
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00160c 0000003c T Chip_Clock_EnableOpts
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000c62 00000008 T __stdio_getchar
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000004 00000004 D d
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000d24 0000000a T Chip_DAC_DeInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0013b8 000000b8 T Chip_Clock_GetClockInputHz
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001470 00000080 T Chip_Clock_CalcMainPLLValue
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001a10 00000038 T SystemInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0024f8 00000038 T delay
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W QEI_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000150 T __bss_section_table
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0023fc 0000006a T gpioWrite
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0009b8 00000002 W _fini
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b98 00000030 T iprintf
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000fdc 00000040 T Chip_ADC_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001bc 00000004 B g_pUsbApi
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000c74 00000038 T Board_SetupMuxing
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000e94 000000dc T Chip_UART_SetBaudFDR
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001dd0 0000000c T tickRead
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000a3a 00000028 T _write_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000060 00000008 D tickRateMS
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00111a 00000022 T Chip_ADC_SetBurstCmd
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0026f8 000000ac T ultrasonicSensorInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W ETH_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0036e4 000000ea T _printf_common
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100000f4 00000004 D _impure_ptr
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002eb4 0000010c T __sflush_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000000 ? _end_uninit_RESERVED
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001b08 00000044 T dacInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001a88 0000001c T Sct_Uint8ToTicks
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001c34 00000014 T uartTxWrite
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W CAN0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000000 D _data
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001cc B _pvHeapStart
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000178 T __section_table_end
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0019d8 00000038 T Chip_SSP_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W GINT0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000d3e 00000018 T Chip_DAC_SetBias
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003226 00000048 T __swhatbuf_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W DAC_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000bd4 00000024 T Board_Debug_Init
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000c58 0000000a T __stdio_putchar
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001070 00000022 T Chip_ADC_Int_SetChannelCmd
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000158 D _edata
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000d58 00000020 T Chip_I2C_EventHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c5 00000001 B __lock___at_quick_exit_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0018cc 00000044 T Chip_SCTPWM_SetOutPin
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001774 00000158 T Chip_SetupCoreClock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003a1a 00000038 T __swrite
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0027e8 0000000a T GPIO0_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003494 00000250 T _vfiprintf_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000000 00000040 T g_pfnVectors
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0031e4 0000003c T _fwalk_reent
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0016fc 00000014 T SystemCoreClockUpdate
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001d34 00000028 T pwmIsAttached
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W DMA_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W EVRT_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1b080000 A __top_MFlashB512
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0030c4 0000000c T __sfp_lock_release
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00454c 00000020 T __sf_fake_stdout
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002b08 00000002 W __aeabi_idiv0
+TP_AlejandroG/Pruebas/out/Pruebas.elf:10000008 00000008 D periodo_emergencia
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a00017e 00000002 W BusFault_Handler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c6 00000001 B __lock___dd_hash_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003270 00000080 T __smakebuf_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c7 00000001 B __lock___tz_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0037d0 00000228 T _printf_i
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001648 00000034 T Chip_Clock_Enable
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001d1c 0000000a T UART3_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001b4 00000004 B __malloc_sbrk_start
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W M0APP_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a002484 00000074 T boardInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001b0 00000004 B __malloc_free_list
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000040 000000d4 T g_pfnVendorVectors
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a003494 00000250 T _vfprintf_r
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W GINT1_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001ddc 00000018 T tickPowerSet
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001580 00000058 T Chip_Clock_SetBaseClock
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a001a48 0000001c T cyclesCounterInit
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+TP_AlejandroG/Pruebas/out/Pruebas.elf:100001c8 00000001 B __lock___sfp_recursive_mutex
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a0030d0 0000000c T __sinit_lock_acquire
+TP_AlejandroG/Pruebas/out/Pruebas.elf:1a000d18 0000000c T Board_SystemInit
